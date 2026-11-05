@@ -1,10 +1,10 @@
 # 上传到 GitHub 与发布新版本
 
-项目地址：https://github.com/Esha-YS/codex-usage-card-windows
+项目名称：`codex-usage-card-windows`。
 
-## 第一次上传（网页方式）
+## 网页上传
 
-1. 登录 GitHub，确认右上角账号用户名是 `Esha-YS`。`Esha` 是显示名称，仓库地址使用用户名。
+1. 登录 GitHub，确认右上角是准备发布项目的账号。
 2. 右上角 **+ → New repository**，名称填 `codex-usage-card-windows`，选择 Public。
 3. 创建仓库后，选择 **uploading an existing file**。也可以先创建 README，再用 **Add file → Upload files**。
 4. 上传本项目根目录中的源码和说明文件。不要上传 `.git`、`dist`、日志、`node.exe`、`installation.json`、`auth.json` 或你电脑上已经安装的工具目录。

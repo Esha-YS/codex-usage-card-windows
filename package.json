@@ -5,6 +5,5 @@
   "description": "Unofficial Windows sidebar quota card for the Codex desktop app",
   "license": "MIT",
   "engines": { "node": ">=24" },
-  "repository": "github:Esha-YS/codex-usage-card-windows",
   "scripts": { "test": "node --test test.cjs" }
 }

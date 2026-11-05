@@ -6,9 +6,9 @@
 [![Node.js](https://img.shields.io/badge/Node.js-24%2B-339933)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-Windows adaptation of [Lorie7813/codex-usage-card](https://github.com/Lorie7813/codex-usage-card), based on its verified v0.9.4 release. Unofficial and not affiliated with OpenAI. Maintained by [Esha-YS](https://github.com/Esha-YS).
+Windows adaptation of [Lorie7813/codex-usage-card](https://github.com/Lorie7813/codex-usage-card), based on its verified v0.9.4 release. Unofficial and not affiliated with OpenAI.
 
-> **原项目与原额度圆环设计： [Lorie7813 / codex-usage-card](https://github.com/Lorie7813/codex-usage-card)。本仓库是基于它制作的 Windows 适配版，不是从零原创的额度卡。Windows 适配、打包及维护：Esha-YS。** 原 MIT 许可和版权声明保留不变。
+> **原项目与原额度圆环设计： [Lorie7813 / codex-usage-card](https://github.com/Lorie7813/codex-usage-card)。本仓库基于它增加 Windows 安装、启动恢复、卸载和打包支持。** 原 MIT 许可和版权声明保留不变。
 
 ## 功能
 
@@ -22,7 +22,7 @@ Windows adaptation of [Lorie7813/codex-usage-card](https://github.com/Lorie7813/
 
 ## 下载安装
 
-1. 从 [Releases](https://github.com/Esha-YS/codex-usage-card-windows/releases) 下载 Windows ZIP 和 `SHA256SUMS.txt`，或使用仓库的 **Code → Download ZIP** 下载源码。
+1. 从本仓库的 **Releases** 页面下载 Windows ZIP 和 `SHA256SUMS.txt`，或使用 **Code → Download ZIP** 下载源码。
 2. 校验 ZIP 后完整解压。不要在压缩包内直接运行安装器。
 3. 安装 [Node.js 24 或更高版本](https://nodejs.org/)，重新打开终端，使 `node --version` 能找到它。
 4. 双击解压目录中的 **`install.cmd`**，或在该目录运行：
