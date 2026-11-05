@@ -10,4 +10,4 @@ The integration relies on internal desktop and CLI interfaces. An application up
 
 Uninstall stops owned helper processes, removes the task, removes the card when its endpoint is reachable, and deletes only known tool files. Fully exit/reopen the client afterwards to close the debugging endpoint.
 
-Never upload your installed tool directory as a release: it may contain machine paths, logs and installation state. Use `build-release.ps1`, which builds from a fixed allowlist of source files. Do not post credentials or private logs in public issues. Use GitHub's private vulnerability reporting if it is available for the repository; otherwise contact the maintainer before disclosing sensitive details.
+Never upload your installed tool directory as a release: it may contain machine paths, logs and installation state. Use `scripts/build-release.ps1`, which builds from a fixed allowlist of source files. Do not post credentials or private logs in public issues. Use GitHub's private vulnerability reporting if it is available for the repository; otherwise contact the maintainer before disclosing sensitive details.

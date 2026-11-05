@@ -9,3 +9,4 @@
 - Add ownership checks, cleanup, opt-in live testing and reproducible release packaging.
 
 Validated on one Windows 11 x64 installation. The signed desktop app is not modified. Future internal API compatibility is not guaranteed.
+
