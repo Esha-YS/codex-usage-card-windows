@@ -1,0 +1,16 @@
+# Runtime and personal state must never be published.
+node.exe
+node_modules/
+*.log
+*.pid
+installation.json
+supervisor-status.json
+quota.json
+auth.json
+.env
+.env.*
+dist/
+tmp/
+test-results/
+*.zip
+
