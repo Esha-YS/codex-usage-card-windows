@@ -215,3 +215,4 @@ switch ($Action) {
         Write-Output 'Uninstalled. Fully quit and reopen Codex normally to close the local debug endpoint.'
     }
 }
+

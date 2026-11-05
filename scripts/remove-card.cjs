@@ -11,3 +11,4 @@ const {CdpSession,isMainWindow}=require('./agent.cjs');
     }));
   } catch {}
 })();
+

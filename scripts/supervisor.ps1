@@ -79,3 +79,4 @@ try {
     if ($agent -and !$agent.HasExited) { Stop-Process -Id $agent.Id -ErrorAction SilentlyContinue }
     $mutex.ReleaseMutex();$mutex.Dispose()
 }
+

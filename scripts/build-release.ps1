@@ -22,3 +22,4 @@ $checksum=Join-Path $output 'SHA256SUMS.txt'
 Copy-Item -LiteralPath $checksum -Destination (Join-Path $repoRoot 'SHA256SUMS.txt') -Force
 Write-Output "Built $archiveName ($($files.Count) public source/documentation files)."
 Write-Output "$hash  $archiveName"
+
